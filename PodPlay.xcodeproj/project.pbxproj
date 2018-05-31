@@ -14,7 +14,7 @@
 		E32B966D20BD53BE004D58C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E32B966B20BD53BE004D58C9 /* LaunchScreen.storyboard */; };
 		E32B967820BD53BF004D58C9 /* PodPlayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E32B967720BD53BF004D58C9 /* PodPlayTests.swift */; };
 		E32B968320BD53BF004D58C9 /* PodPlayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E32B968220BD53BF004D58C9 /* PodPlayUITests.swift */; };
-		E32B969120BD53D7004D58C9 /* VegeLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = E32B969020BD53D7004D58C9 /* VegeLog.swift */; };
+		E35036EF20BE3B8100F04528 /* VegeLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35036EE20BE3B8000F04528 /* VegeLog.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,7 +48,7 @@
 		E32B967E20BD53BF004D58C9 /* PodPlayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PodPlayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E32B968220BD53BF004D58C9 /* PodPlayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodPlayUITests.swift; sourceTree = "<group>"; };
 		E32B968420BD53BF004D58C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E32B969020BD53D7004D58C9 /* VegeLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VegeLog.swift; sourceTree = "<group>"; };
+		E35036EE20BE3B8000F04528 /* VegeLog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VegeLog.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +101,7 @@
 			children = (
 				E32B966220BD53BC004D58C9 /* AppDelegate.swift */,
 				E32B966420BD53BC004D58C9 /* ViewController.swift */,
-				E32B969020BD53D7004D58C9 /* VegeLog.swift */,
+				E35036ED20BE3B8000F04528 /* VegeLog */,
 				E32B966620BD53BC004D58C9 /* Main.storyboard */,
 				E32B966920BD53BE004D58C9 /* Assets.xcassets */,
 				E32B966B20BD53BE004D58C9 /* LaunchScreen.storyboard */,
@@ -126,6 +126,14 @@
 				E32B968420BD53BF004D58C9 /* Info.plist */,
 			);
 			path = PodPlayUITests;
+			sourceTree = "<group>";
+		};
+		E35036ED20BE3B8000F04528 /* VegeLog */ = {
+			isa = PBXGroup;
+			children = (
+				E35036EE20BE3B8000F04528 /* VegeLog.swift */,
+			);
+			path = VegeLog;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,7 +269,7 @@
 			files = (
 				E32B966520BD53BC004D58C9 /* ViewController.swift in Sources */,
 				E32B966320BD53BC004D58C9 /* AppDelegate.swift in Sources */,
-				E32B969120BD53D7004D58C9 /* VegeLog.swift in Sources */,
+				E35036EF20BE3B8100F04528 /* VegeLog.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
